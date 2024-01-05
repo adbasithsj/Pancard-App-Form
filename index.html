@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pancard App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> 
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTWfKU53G_dKTqay0DwUdMIKDauowk5_Ruug&usqp=CAU" alt="" height="40px" width="40px" style="margin-left: 10px;"></a>
+           <!-- <div style="text-align: center;" class="bar-border"> <h2 style="color: blue; text-align: center;"><i class="fa-solid fa-bars"></i></h2></div> -->
+            <img src="https://www.pancardapp.com/assets/img/logo.png?v=20230116v1" alt="pancardapp-image" height="50" width="200" style="margin-left: 500px;" >
+        </div>
+    </header><br>
+    <main>
+        <h2 style="text-align: center;">New PAN Card Application Form</h2><br>
+        <section class="section-1">
+            <div >
+                <h4 style="margin-bottom: 10px; margin-top: 8px;">APPLICANT NAME DETAIL</h4>
+                <h4 class="blue-color">Name as given in Aadhaar Card</h4>
+                <input class="adjust-placeholder" type="text" placeholder="Enter your Full Name here" style="width: 99%;"><br><br>
+
+            <table>
+               <tr>
+                    <td> <h4 class="blue-color">Surname/Lastname</h4></td>
+                    <td> <h4 class="blue-color">First Name</h4></td>
+                    <td> <h4 class="blue-color">Middle Name <span style="font-size: 12px; font-weight: lighter;">[Father or Husband Name]</span></h4></td>
+               </tr>
+               <tr>
+                <td> <input type="text" class="adjust-placeholder" placeholder="Enter your Surname here" style="width: 288px; margin-right: 15px;" ></td>
+                <td> <input type="text" class="adjust-placeholder" placeholder="Enter your First Name here" style="width: 288px; margin-right: 15px;"></td>
+                <td> <input type="text" class="adjust-placeholder" placeholder="Enter your Middle Name here" style="width: 288px;"></td>
+                    
+               </tr>
+               
+            </table><br>
+            <h5 class="blue-color">Name Identity Proof</h5>
+            <select class="select-1" name="Identity Proof" id="Identity Proof">
+                <option value="Name Identity Proof" >Select Name Identity Proof</option>
+                <option value="Aadhaar Card">Aadhaar Card</option>
+            </select>
+            <br><br>
+            </div>
+        </section><br>
+        <section class="section-1">
+            <div>
+                <h4 style="margin-bottom: 10px; margin-top: 8px;">FATHER'S NAME DETAIL</h4>
+                <table>
+                    <tr>
+                         <td> <h4 class="blue-color">Surname/Lastname</h4></td>
+                         <td> <h4 class="blue-color">First Name</h4></td>
+                         <td> <h4 class="blue-color">Middle Name</h4></td>
+                    </tr>
+                    <tr>
+                     <td> <input type="text" class="adjust-placeholder" placeholder="Enter your Name here" style="width: 288px; margin-right: 15px;" ></td>
+                     <td> <input type="text" class="adjust-placeholder" placeholder="Enter your Name here" style="width: 288px; margin-right: 15px;"></td>
+                     <td> <input type="text" class="adjust-placeholder" placeholder="Enter your Name here" style="width: 288px;"></td>
+                         
+                    </tr>
+                    
+                 </table>
+            </div>
+        </section><br>
+        <section class="section-1">
+            <div>
+                <h4 class="blue-color" style="margin-bottom: 10px; margin-top: 8px;">Applicant's Date Of Birth</h4>
+                <table>
+
+                    <tr>
+                     <td>  <select class="select-2" style="margin-right: 15px; padding-right: 10px;">
+                <option value="Day" >Day</option>
+                <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
+                
+            </select></td>
+                     <td>  <select class="select-2" style="margin-right: 15px; padding-right: 50px;" >
+                <option value="Month" >Month</option>
+                <option>January</option><option>February</option><option>March</option><option>April</option><option>May</option>
+            </select></td>
+                     <td>  <select class="select-2" style="padding-right: 60px; ">
+                <option value="Year" >Year</option>
+                <option>2020</option><option>2021</option><option>2022</option><option>2023</option><option>2024</option>
+            </select></td> 
+                    </tr>
+                    <tr >
+                        <td><h5 style="padding-left: 15px;" class="light-color">Day</h5></td>
+                        <td><h5 style="padding-left: 35px;" class="light-color">Month</h5></td>
+                        <td><h5 style="padding-left: 40px;" class="light-color">Year</h5></td>
+                    </tr>
+                 </table><br><br>
+                <h4 class="blue-color" style="margin-bottom: 10px; margin-top: 8px;">Date Of Birth Proof</h4>
+                <select class="select-1" name="Identity Proof" id="Identity Proof">
+                    <option value="Name Identity Proof" >Select Date of Birth Proof</option>
+                    <option value="Aadhaar Card">Aadhaar Card</option>
+                    <option>Election Card / Voter ID</option>
+                    <option>Driving License</option>
+                    <option>Passport</option>
+                </select>
+
+            </div>
+        </section><br>
+        <section class="section-1">
+            <div>
+                <h4 class="blue-color" style="margin-bottom: 10px; margin-top: 8px;">Address Proof <span style="font-size: small;">*</span></h4>
+                <select class="select-1" name="Identity Proof" id="Identity Proof">
+                    <option value="Name Identity Proof" >Select Address Proof</option>
+                    <option value="Aadhaar Card">Aadhaar Card</option>
+                    <option>Election Card / Voter ID</option>
+                    <option>Driving License</option>
+                    <option>Passport</option>
+                </select>
+                <h5 style="margin-top: 6px;">* PAN Card will be sent in courier as per Address Proof.</h5><br>
+                <h4 class="blue-color" >Mobile Number</h4>
+                <div class="flexbox">
+                <input type="text" class="india-code" value="+91" style="width: 30px; margin-right: 0;" readonly>
+                <input type="tel" class="adjust-placeholder" pattern="[1-9]{1}[0-9]{9}" maxlength="10" placeholder="Enter your Moble Number here" style="width: 900px;" >
+                </div><br>
+                <h4 class="blue-color" >Email ID</h4>
+                <input class="adjust-placeholder" type="email" placeholder="Enter your Email ID here" style="width: 99%;">
+
+            </div><br>
+        </section><br>
+        <div class="div-btn">
+        <button type="submit" value="submit" class="btn">
+            SUBMIT
+        </button>
+        </div><br>
+    </main>
+</body>
+</html>
